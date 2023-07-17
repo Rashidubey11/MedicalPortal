@@ -22,30 +22,12 @@
 <%@include file="../component/allcss.jsp"%>
 
 <!-- customs css for this page -->
-<style type="text/css">
-.my-card {
-	box-shadow: 0px 0px 10px 1px maroon;
-	/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/
-}
+<style> 
 
-/* backgournd image css */
-
-
-.my-bg-img{
-	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),url("img/newdoc2.jpg");
-	height: 100%;
-	width: 100%;
-	background-size:cover;
-	background-repeat: no-repeat;
-	
-}
-
-/* backgournd image css */
 </style>
-<!-- end of customs css for this page -->
 
 </head>
-<body>
+<body >
 	<%@include file="component/navbar.jsp"%>
 
 	<!-- start 1st Div -->
@@ -60,6 +42,7 @@
 
 
 	<!-- 2nd Div -->
+	
 
 	<div class="container p-3">
 		<p class="fs-2"></p>
@@ -72,6 +55,7 @@
 				<!-- <img alt="" src="img/picDoc.jpg" width="500px" height="500px"> -->
 				<img alt="" src="img/newdoc1.jpeg" width="100%" height="100%">
 			</div>
+			
 			
 			<!-- col-2 -->
 			<div class="col-md-6">
@@ -175,7 +159,7 @@
 
 
 							<c:if test="${empty userObj}">
-								<div class="col-md-12">
+								<div class="col-md-12" style="background-color: brown;">
 									<a href="user_login.jsp" class="btn my-bg-color text-white col-md-12">Submit</a>
 								</div>
 							</c:if>
@@ -183,7 +167,7 @@
 
 							<c:if test="${not empty userObj}">
 
-								<div class="col-md-12">
+								<div class="col-md-12" style="background-color: brown;">
 									<button type="submit" class="btn my-bg-color text-white col-md-12">Submit</button>
 								</div>
 
@@ -206,6 +190,7 @@
 	</div>
 
 	<!-- 2nd Div -->
+	
 
 
 
@@ -221,9 +206,7 @@
 
 
 
-<!-- footer -->
-<%@include file="component/footer.jsp" %>
-<!-- end footer -->
+
 
 </body>
 </html>

@@ -8,8 +8,9 @@
 <%@page isELIgnored="false"%>
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-success">
-	<div class="container-fluid">
+
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #f5b7b1 ;">
+	<div class="container-fluid" style="background-color: #f5b7b1 ;">
 		<a class="navbar-brand" href="index.jsp"><i
 			class="fa-sharp fa-solid fa-hospital"></i> Doctor Patient Portal</a>
 		<!-- 		<a class="navbar-brand" href="index.jsp"><i

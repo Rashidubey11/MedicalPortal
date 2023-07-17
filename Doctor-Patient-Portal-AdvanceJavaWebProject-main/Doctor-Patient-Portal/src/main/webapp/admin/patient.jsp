@@ -40,9 +40,9 @@
 			<div class="card-body">
 				<p class="text-center text-danger fs-3">Patient Details</p>
 
-				<table class="table table-success table-striped">
+				<table class="table table-striped">
 					<thead>
-						<tr class="table">
+						<tr  style="background-color: #f5b7b1 ;">
 							<th scope="col" style="padding-right:70px">Full Name</th>
 							<th scope="col">Gender</th>
 							<th scope="col">Age</th>

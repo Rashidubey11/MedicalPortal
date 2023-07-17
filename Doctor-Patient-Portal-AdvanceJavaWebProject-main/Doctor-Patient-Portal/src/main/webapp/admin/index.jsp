@@ -42,7 +42,7 @@
 
 
 	<div class="container p-5">
-		<p class="text-center text-danger fs-3">Admin Dashboard</p>
+		<p class="text-center  fs-3">Admin Dashboard</p>
 
 		<!-- message print -->
 		<!-- for success msg -->

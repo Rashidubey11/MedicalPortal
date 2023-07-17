@@ -224,8 +224,6 @@
 
 
 
-	<!-- footer -->
-	<%@include file="component/footer.jsp"%>
-	<!-- end footer -->
+
 </body>
 </html>

@@ -6,11 +6,11 @@
 
 <!-- <i class="fa-sharp fa-solid fa-hospital"></i> -->
 
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-danger"> -->
-<nav class="navbar navbar-expand-lg navbar-dark"style="background-color: #4568dc;">
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-danger"> -->
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #f5b7b1 ;">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="index.jsp"><i class="fa-sharp fa-solid fa-hospital"></i> Doctor Patient Portal</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+		<button class="navbar-toggler" color="black" type="button" data-bs-toggle="collapse"
 			data-bs-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false"
 			aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
 
 				<c:if test="${empty userObj}">
 
-					<li class="nav-item"><a class="nav-link active"
+					<li class="nav-item" style="color: black;"><a class="nav-link active"
 						aria-current="page" href="admin_login.jsp"><i
 							class="fa-solid fa-right-to-bracket"></i> ADMIN</a></li>
 					<li class="nav-item"><a class="nav-link active"
@@ -82,12 +82,6 @@
 
 				</c:if>
 				<!-- end of if user is logged in then user can see below items -->
-
-
-
-
-
-
 
 
 			</ul>

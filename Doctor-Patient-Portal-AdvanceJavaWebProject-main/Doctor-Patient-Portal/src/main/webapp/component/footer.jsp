@@ -13,7 +13,7 @@
 
 <footer class="my-bg-color text-center text-white mt-5">
   <!-- Grid container -->
-  <div class="container p-4 pb-0">
+  <div class="container p-4 pb-0" style="background-color: #F5B7B1;">
     <!-- Section: Social media -->
     <section class="mb-4">
       <!-- Facebook -->
@@ -52,7 +52,7 @@
 
   <!-- Copyright -->
   
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  <div class="text-center p-3" style="background-color: brown;">
     
     <a class="text-white" href="https://github.com/mdtalalwasim">
   </div>

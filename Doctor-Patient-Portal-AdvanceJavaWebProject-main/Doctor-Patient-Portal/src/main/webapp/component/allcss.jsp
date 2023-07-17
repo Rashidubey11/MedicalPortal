@@ -26,19 +26,21 @@
 
 <style>
 body {
-	margin: 0;
+	margin: 0;  
+	color:black;
+	background-color: brown;
 	padding: 0;
 	width: 100%;
 	overflow-x: hidden;
 }
 
 .my-bg-color {
-	background-color: #4568dc;
+	background-color:brown;";
 	
 }
 
 .myP-color{
-	color: #4568dc;
+	color: black;
 }
 
 

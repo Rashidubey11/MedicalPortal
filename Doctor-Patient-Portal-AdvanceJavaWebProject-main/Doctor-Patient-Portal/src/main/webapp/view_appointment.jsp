@@ -37,7 +37,7 @@
 	/*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);*/
 }
 
-/* backgournd image css */
+/* backgournd image css 
 .my-bg-img {
 	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
 		url("img/hospital1.jpg");
@@ -46,6 +46,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+*/
 
 /* backgournd image css */
 </style>
@@ -83,7 +84,7 @@
 
 
 			<!-- col-2 -->
-			<div class="col-md-9">
+			<div class="col-md-12">
 				<div class="card my-card">
 					<div class="card-body">
 						<p class="fw-bold text-center myP-color fs-4">Appointment
@@ -148,9 +149,11 @@
 									<td>
 										<%
 										if ("Pending".equals(apptList.getStatus())) {
-										%> <a href="" class="btn btn-sm btn-warning">Pending</a> <%
+										%> <a href="" class="btn btn-sm "  style="background-color: #f5b7b1 ;">Pending</a> <%
  } else {
- %> <%=apptList.getStatus()%> <%
+ %> 
+ <%=apptList.getStatus()%>
+  <%
  }
  %>
 									</td>
@@ -176,11 +179,7 @@
 			</div>
 
 			<!-- col-1 -->
-			<div class="col-md-3 p-3">
-				<!-- for Background image -->
-				<!-- <img alt="" src="img/picDoc.jpg" width="500px" height="400px"> -->
-				<img alt="" src="img/wdoc.jpg" width="250" height="">
-			</div>
+			
 
 
 

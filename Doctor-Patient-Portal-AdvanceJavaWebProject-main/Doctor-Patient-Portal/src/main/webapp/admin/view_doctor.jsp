@@ -60,7 +60,7 @@
 
 						<table class="table table-striped">
 							<thead>
-								<tr class="table-info">
+								<tr  style="background-color: #f5b7b1 ;">
 									<!-- <th scope="col">ID</th> -->
 									<th scope="col">Full Name</th>
 									<th scope="col">DOB</th>

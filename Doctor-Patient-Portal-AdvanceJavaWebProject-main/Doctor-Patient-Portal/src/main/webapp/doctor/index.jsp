@@ -49,7 +49,7 @@
 
 
 	<div class="container p-5">
-		<p class="text-center text-success fs-3">Doctor DashBoard</p>
+		<p class="text-center  fs-3">Doctor DashBoard</p>
 
 		<%
 		
@@ -66,7 +66,7 @@
 		<div class="row">
 			<div class="col-md-4 offset-md-2">
 				<div class="card my-card">
-					<div class="card-body text-center text-success">
+					<div class="card-body text-center">
 						<i class="fa-solid fa-user-doctor fa-3x"></i><br>
 						<p class="fs-4 text-center">
 							Doctor <br><%= totalNumberOfDoctor %>
@@ -78,7 +78,7 @@
 
 			<div class="col-md-4">
 				<div class="card my-card">
-					<div class="card-body text-center text-success">
+					<div class="card-body text-center">
 						<i class="fa-solid fa-calendar-check fa-3x"></i><br>
 						<p class="fs-4 text-center">
 							Total Appointment <br> <%= docDAO.countTotalAppointmentByDoctorId(currentLoginDoctor.getId()) %>
